@@ -14,8 +14,8 @@ cask "google-chrome97" do
     regex(/"version": "(\d+(?:\.\d+)+)"/i)
   end
 
-  auto_updates true
-  depends_on macos: ">= :yosemite"
+  auto_updates false
+  #depends_on macos: ">= :yosemite"
 
   app "Google Chrome.app"
 
