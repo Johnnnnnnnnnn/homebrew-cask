@@ -5,7 +5,7 @@ cask "google-chrome97" do
   sha256 :no_check
 
   url "https://dl.google.com/chrome/mac/#{arch}stable/GGRO/googlechrome.dmg"
-  name "Google Chrome"
+  name "Google Chrome97"
   desc "Web browser"
   homepage "https://www.google.com/chrome/"
 
@@ -17,7 +17,7 @@ cask "google-chrome97" do
   auto_updates false
   #depends_on macos: ">= :yosemite"
 
-  app "Google Chrome97.app"
+  app "Google Chrome.app"
 
   zap trash:     [
     "/Library/Caches/com.google.SoftwareUpdate.*",
