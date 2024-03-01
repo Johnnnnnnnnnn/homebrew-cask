@@ -17,7 +17,7 @@ cask "google-chrome97" do
   auto_updates false
   #depends_on macos: ">= :yosemite"
 
-  app "Google Chrome97.app"
+  app "Google Chrome.app"
 
   zap trash:     [
     "/Library/Caches/com.google.SoftwareUpdate.*",
