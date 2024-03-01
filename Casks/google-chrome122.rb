@@ -1,4 +1,4 @@
-cask "google-chrome" do
+cask "google-chrome122" do
   version "122.0.6261.94"
   sha256 :no_check
 
@@ -14,7 +14,7 @@ cask "google-chrome" do
     end
   end
 
-  auto_updates true
+  auto_updates false
   depends_on macos: ">= :catalina"
 
   app "Google Chrome.app"
