@@ -17,7 +17,7 @@ cask "google-chrome122" do
   auto_updates false
   depends_on macos: ">= :catalina"
 
-  app "Google Chrome.app"
+  app "Google Chrome122.app"
 
   zap launchctl: [
         "com.google.keystone.agent",
